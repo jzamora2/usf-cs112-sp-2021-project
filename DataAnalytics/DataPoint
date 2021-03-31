@@ -1,1 +1,63 @@
+package dataanalytics;
+
+public class DataPoint1 {
+
+	public Double f1;
+	public Double f2;
+	public String name;
+	public boolean isTest;
+	
+	public void DataPoint(Double point1) {
+		this.f1 = point1;
+	}
+		
+	DataPoint1(Double point2) {
+		this.f2 = point2;
+	}
+	
+	DataPoint1(String nParam) {
+		this.name = nParam;
+	}
+	
+	DataPoint1(boolean tParam) {
+		this.isTest = tParam;
+	}
+	
+	Double getPoint1() {
+		return this.getPoint1();
+	}
+	
+	Double getPoint2() {
+		return this.getPoint2();
+	}
+	
+	String getName() {
+		return this.getName();
+	}
+	
+	String getTest() {
+		return this.getTest();
+	}
+	
+	public void setPoint1(double Point1) {
+		this.f1 = Point1;
+	}
+	
+	public void setPoint2(double Point2) {
+		this.f2 = Point2;
+	}
+	
+	public void setName(String nParam) {
+		this.name = nParam;
+	}
+		
+	public void setTest(boolean tParam) {
+		this.isTest = tParam;
+	}
+		
+	
+}
+	
+
+
 
