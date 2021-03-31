@@ -1,0 +1,32 @@
+package dataanalytics;
+
+import java.util.ArrayList;
+
+public abstract class DummyPredictor extends Predictor {
+
+	public DummyPredictor() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	String test(DataPoint data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	Double getAccuracy(ArrayList<DataPoint> data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	Double getPrecision(ArrayList<DataPoint> data) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
