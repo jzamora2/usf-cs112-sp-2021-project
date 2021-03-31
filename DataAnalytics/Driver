@@ -1,0 +1,10 @@
+package dataanalytics;
+
+public class Driver {
+
+	DummyPredictor = new DummyPredictor;
+	
+	Point f1 = new Point(1.2, 2.3);
+	Point f2 = new Point(3.4, 4.5);
+
+}
